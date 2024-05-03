@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car rental Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="video-background">
+      <nav>
+        <div class="container">
+          <div class="logo">WHEELER</div>
+          <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Service</a>
+          </div>
+      
+          <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          
+          <div id="mobile-menu" onclick="closeMenu()">
+            <ul class="ulItem">
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Service</li>
+            </ul>
+          </div>
+          
+        </div>
+      </nav>
+      <div class="content">
+        <h2 class="contentText">
+          Dive into<br /><strong class="colorText">what you love</strong>
+        </h2>
+      </div>
+
+      <video autoplay muted loop class="video">
+        <source src="Assets/video1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+    <section>
+      <h4 class="aboutText">About Us</h4>
+      <div class="containerAbout">
+        <div class="textAbout">
+          <h2 class="textHead">Welcome to car rent service</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatum blanditiis esse accusantium dignissimos labore
+            laborum. Veniam, corporis mollitia temporibus, in quaerat vero
+            deleniti amet dolorem repudiandae, pariatur nam dolore! Impedit
+            neque sit ad temporibus quam similique dolor ipsam praesentium
+            sunt.
+          </p>
+        </div>
+        <div class="imageAbout">
+          <img src="Assets/bmw-offer.png" alt="" class="w-100" />
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+      <h4 class="aboutText">Service</h4>
+      <div class="cards-container">
+        <div class="card">
+          <img src="Assets/nissan-offer.png" alt="Image 1" />
+          <div class="card-content">
+            <h3>Tesla Malibu</h3>
+            <button class=" w-50 car__item-btn car__btn-rent">Rent</button>
+            <button class=" w-50 car__item-btn car__btn-details">
+              Details
+            </button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="Assets/offer-toyota.png" alt="Image 2" />
+          <div class="card-content">
+            <h3>Toyota Aventador</h3>
+            <button class=" w-50 car__item-btn car__btn-rent">Rent</button>
+            <button class=" w-50 car__item-btn car__btn-details">
+              Details
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Assets/bmw-offer.png" alt="Image 3" />
+          <div class="card-content">
+            <h3>BMW X3</h3>
+            <button class=" w-50 car__item-btn car__btn-rent">Rent</button>
+            <button class=" w-50 car__item-btn car__btn-details">
+              Details
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Assets/mercedes-offer.png" alt="Image 3" />
+          <div class="card-content">
+            <h3>Nissan Mercielgo</h3>
+            <button class=" w-50 car__item-btn car__btn-rent">Rent</button>
+            <button class=" w-50 car__item-btn car__btn-details">
+              Details
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Assets/toyota-offer-2.png" alt="Image 3" />
+          <div class="card-content">
+            <h3>Ferrari Camry</h3>
+            <button class=" w-50 car__item-btn car__btn-rent">Rent</button>
+            <button class=" w-50 car__item-btn car__btn-details">
+              Details
+            </button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Assets/bmw12.png" alt="Image 3" />
+          <div class="card-content">
+            <h3>BMW M Series</h3>
+            <button class=" w-50 car__item-btn car__btn-rent">Rent</button>
+            <button class=" w-50 car__item-btn car__btn-details">
+              Details
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2024 Wheeler. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
